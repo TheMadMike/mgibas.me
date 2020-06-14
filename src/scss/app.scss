@@ -9,8 +9,18 @@ body {
   /* Background pattern from Toptal Subtle Patterns */
   background-image: url('../assets/bg.png');
   font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
 }
 
+#app {
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+
+@import './footer.scss';
 @import './nav.scss';
 
 @media (max-width: 768px) {
