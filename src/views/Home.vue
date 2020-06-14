@@ -4,6 +4,8 @@
 </template>
 
 <script>
+import '../scss/home.scss';
+
 export default {
   name: 'Home',
 };

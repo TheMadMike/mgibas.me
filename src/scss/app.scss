@@ -1,0 +1,17 @@
+@import './base.scss';
+
+body {
+  font-family: $font;
+  color: $primary-text-color;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@import './nav.scss';
