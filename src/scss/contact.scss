@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.contact-form {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-top: 1vh;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  textarea {
+    margin-top: 1vh;
+    height: 25vh;
+    resize: none;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 5px #aaaaaa;
+  }
+
+  input:last-of-type {
+    width: 20vw;
+    align-self: center;
+    margin-top: 2vh;
+    border: none;
+    padding: 10px;
+
+    transition: 0.5s;
+
+    &:hover {
+      transition: 0.5s;
+      color: whitesmoke;
+      background-color: darkgray;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 80vw;
+  }
+}
