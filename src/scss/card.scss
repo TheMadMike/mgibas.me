@@ -1,0 +1,42 @@
+@import './base.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  color: $primary-text-color;
+  width: 25vw;
+  height: 25vw;
+
+  border-top: 6px solid rgb(24, 73, 24);
+
+  box-shadow: 5px 5px 5px #aaaaaa;
+  padding: 0;
+
+  img {
+    width: 25vw;
+    object-fit: cover;
+    height: 6vw;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-text-color;
+    padding: 5px;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 0;
+    text-align: justify;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 8vw;
+    color: gray;
+  }
+}
