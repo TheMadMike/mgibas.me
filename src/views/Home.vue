@@ -13,8 +13,8 @@
       </p>
       <p>
         I develop web apps/pages.
-        I'm not afraid of challenges.
-        Eager to work hard and learn.
+        Not afraid of challenges.
+        Eager to learn.
         Ready for contracts,
         internships and part-time jobs.
       </p>
