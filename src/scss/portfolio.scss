@@ -1,0 +1,13 @@
+.portfolio {
+  text-align: center;
+  h1 {
+    font-weight: 400;
+    text-shadow: lightgray 3px 3px;
+  }
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
