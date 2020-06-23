@@ -7,7 +7,9 @@
   background-color: whitesmoke;
   color: $primary-text-color;
   width: 25vw;
-  height: 25vw;
+
+  min-height: 25vw;
+  max-height: 35vw;
 
   border-top: 6px solid rgb(24, 73, 24);
 
@@ -32,11 +34,30 @@
   }
 
   p {
+    font-size: 2vw;
     margin-top: 0;
     text-align: justify;
     padding-left: 2vw;
     padding-right: 2vw;
-    height: 8vw;
+    min-height: 8vw;
     color: gray;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50vw;
+    min-height: 50vw;
+    p {
+      font-size: 3.5vw;
+    }
+
+    a {
+      font-size: 5vw;
+      padding: 3vw;
+    }
+    h3 { 
+      font-size: 4.6vw;
+    }
   }
 }
